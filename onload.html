@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onload</title>
+</head>
+<body>
+    <div>
+        <figure>
+            <img src="poe.jpg" alt="" height="200px" onload="test()">
+            <figcaption>Poe Ma Me Thar</figcaption>
+        </figure>
+        <img src="poet.jpg" alt="Something is wrong!" onerror="" height="200px">
+    </div>
+
+    <script>
+        function test(){
+            alert("The image has been loaded!")
+        }
+        function errorTest(){
+            alert("Error Occur!")
+        }
+    </script>
+</body>
+</html>
